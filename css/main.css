@@ -4,14 +4,15 @@ body {
 }
 
 p.primeralinea {
-  text-indent: 40px;
+  text-indent: 30px;
+  text-align: justify
 }
 
 .portada{
   width: 100%;
-  height: 85vh;
-  background-image:url('../img/palacio_santa_cruz.jpg');  
+  height: 100%;
   background-size: 100%;
+  background-repeat: no-repeat
   display: flex;
   flex-direction: column;
 
@@ -20,3 +21,6 @@ p.primeralinea {
 .text-titulo{
   text-shadow: 0 0 40px #000000;
 }
+
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }

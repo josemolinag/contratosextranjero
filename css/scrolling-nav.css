@@ -6,6 +6,9 @@
 
 header {
   padding: 154px 0 100px;
+  background-size: cover;
+  background-image:url(../img/palacio_santa_cruz.jpg);
+  
 }
 
 @media (min-width: 992px) {
@@ -15,5 +18,5 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
