@@ -66,6 +66,9 @@
               <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
               <li>Minimal custom CSS so you are free to explore your own unique design options</li>
             </ul>
+            <iframe src="vendor/pdf-js/web/viewer.html?file=%2Facuerdo_emergencia.pdf"></iframe>
+            <a href="/web/viewer.html?file=%2Facuerdo_emergencia.pdf">Open yourpdf.pdf with PDF.js</a>
+
           </div>
         </div>
       </div>
@@ -77,7 +80,7 @@
           <div class="col-lg-8 mx-auto">
             <h2>Services we offer</h2>
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-            <iframe src="vendor/pdf-js/web/viewer.html?file=docs/acuerdo_emergencia.pdf"></iframe>
+
 
 
             
@@ -87,6 +90,48 @@
           </div>
         </div>
       </div>
+
+    <div class="container">
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <iframe src="https://www.upv.es/entidades/DSIC/index.html" width="100%" height="600">
+                    <p>Your browser does not support iframes.</p>
+                </iframe>
+
+            </div>
+            <div class="item">
+                <iframe id="datawrapper-chart-GMt2h" src="//datawrapper.dwcdn.net/GMt2h/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="435"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["GMt2h"]={},window.datawrapper["GMt2h"].embedDeltas={"100":790,"200":557,"300":459,"400":417,"500":417,"700":375,"800":375,"900":375,"1000":375},window.datawrapper["GMt2h"].iframe=document.getElementById("datawrapper-chart-GMt2h"),window.datawrapper["GMt2h"].iframe.style.height=window.datawrapper["GMt2h"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["GMt2h"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("GMt2h"==b)window.datawrapper["GMt2h"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+            </div>
+
+            <div class="item">
+                <iframe id="datawrapper-chart-92LwC" src="//datawrapper.dwcdn.net/92LwC/2/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="435"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["92LwC"]={},window.datawrapper["92LwC"].embedDeltas={"100":885,"200":609,"300":511,"400":477,"500":477,"700":435,"800":418,"900":418,"1000":418},window.datawrapper["92LwC"].iframe=document.getElementById("datawrapper-chart-92LwC"),window.datawrapper["92LwC"].iframe.style.height=window.datawrapper["92LwC"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["92LwC"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("92LwC"==b)window.datawrapper["92LwC"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+                <div class="carousel-caption">
+                    <h3>My page</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            
+        </a>
+    </div>
+</div>
+
+  
     </section>
 
     <section id="contact">
@@ -114,11 +159,12 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
     <!--scrollstory-plgin-->
     <script src="jquery.scrollstory.js"></script>
+    <script type="text/javascript" src="vendor/pdf-js/build/pdf.js"></script>
+    <script type="text/javascript" src="vendor/pdf-js/build/pdf.worker.js"></script>
 
   </body>
 
