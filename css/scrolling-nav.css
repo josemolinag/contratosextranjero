@@ -5,10 +5,15 @@
  */
 
 header {
-  padding: 154px 0 100px;
-  background-size: cover;
+  padding: 154px 0 200px;
   background-image:url(../img/palacio_santa_cruz.jpg);
-  
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 992px) {

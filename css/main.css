@@ -3,24 +3,25 @@ body {
   font-family: 'PT Serif', serif;
 }
 
-p.primeralinea {
+p.parrafo{
   text-indent: 30px;
   text-align: justify
 }
 
-.portada{
-  width: 100%;
-  height: 100%;
-  background-size: 100%;
-  background-repeat: no-repeat
-  display: flex;
-  flex-direction: column;
-
-}
-
-.text-titulo{
+.texto-sombra{
   text-shadow: 0 0 40px #000000;
 }
 
 .pdfobject-container { height: 500px;}
 .pdfobject { border: 1px solid #666; }
+
+table {
+  table-layout:fixed;
+}
+table td {
+  word-wrap: break-word;
+  max-width: 400px;
+}
+#example td {
+  white-space:inherit;
+}
