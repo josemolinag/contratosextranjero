@@ -25,3 +25,8 @@ table td {
 #example td {
   white-space:inherit;
 }
+
+.completa  {
+	width: 100%;
+ 	position: relative;
+}
