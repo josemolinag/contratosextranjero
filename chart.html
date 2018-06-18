@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+      // Load the Visualization API and the corechart package.
+      google.charts.load('current', {'packages':['corechart'],'language':'es'});
+
+      // Set a callback to run when the Google Visualization API is loaded.
+      google.charts.setOnLoadCallback(drawChart);
+
+      // Callback that creates and populates a data table,
+      // instantiates the pie chart, passes in the data and
+      // draws it.
+      function drawChart() {
+
+        // Create the data table.
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Topping');
+        data.addColumn('number', 'Slices');
+        data.addRows([
+          ['Mushrooms', 3],
+          ['Onions', 1],
+          ['Olives', 1],
+          ['Zucchini', 1],
+          ['Pepperoni', 2]
+        ]);
+
+        // Set chart options
+        var options = {'title':'Cronología del caso',
+                       'width':400,
+                       'height':300};
+
+        // Instantiate and draw our chart, passing in some options.
+        var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+    <div class="container">
+  <div class="row">
+    
+        <div class="timeline-centered">
+
+        <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+
+                <div class="timeline-icon bg-success">
+                    <i class="entypo-feather"></i>
+                </div>
+
+                <div class="timeline-label">
+                    <h2><a href="#">Art Ramadani</a> <span>posted a status update</span></h2>
+                    <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+
+                <div class="timeline-icon bg-secondary">
+                    <i class="entypo-suitcase"></i>
+                </div>
+
+                <div class="timeline-label">
+                    <h2><a href="#">Job Meeting</a></h2>
+                    <p>You have a meeting at <strong>Laborator Office</strong> Today.</p>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+
+                <div class="timeline-icon bg-info">
+                    <i class="entypo-location"></i>
+                </div>
+
+                <div class="timeline-label">
+                    <h2><a href="#">Arlind Nushi</a> <span>checked in at</span> <a href="#">Laborator</a></h2>
+
+                    <blockquote>Great place, feeling like in home.</blockquote>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-entry">
+
+            <div class="timeline-entry-inner">
+
+                <div class="timeline-icon bg-warning">
+                    <i class="entypo-camera"></i>
+                </div>
+
+                <div class="timeline-label">
+                    <h2><a href="#">Arber Nushi</a> <span>changed his</span> <a href="#">Profile Picture</a></h2>
+
+                    <blockquote>Pianoforte principles our unaffected not for astonished travelling are particular.</blockquote>
+
+                    <img src="http://themes.laborator.co/neon/assets/images/timeline-image-3.png" class="img-responsive img-rounded full-width">
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="timeline-entry begin">
+
+            <div class="timeline-entry-inner">
+
+                <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
+                    <i class="entypo-flight"></i> +
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+    
+  </div>
+</div>
+  </body>
+</html>
