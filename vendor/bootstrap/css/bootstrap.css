@@ -170,7 +170,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #D12A09;
   text-decoration: underline;
 }
 
@@ -6089,6 +6089,10 @@ button.bg-danger:focus {
 
 .bg-light {
   background-color: #f8f9fa !important;
+}
+
+.bg-naranjita {
+  background-color:#ffb575 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,

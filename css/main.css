@@ -12,6 +12,13 @@ body {
   	
 }
 
+.img-fondo {
+    margin-left: 0;
+  	margin-right: 0;
+    width:100%;
+	background-size: cover;
+	text-align: center;
+}
 #myVideo {
     position: fixed;
     right: 0;
