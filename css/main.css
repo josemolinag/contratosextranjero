@@ -9,7 +9,19 @@ body {
 	padding: 0 20px;
   	position: relative;
   	z-index: 99;
-  	
+  }
+  	.boton {
+    background-color: #D12A09; /* rojo */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 }
 .bottom-right {
     position: relative;
