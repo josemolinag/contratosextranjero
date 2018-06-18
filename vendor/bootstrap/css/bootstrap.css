@@ -550,6 +550,7 @@ pre code {
 
 .container {
   width: 100%;
+  padding: 50px 0;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -593,6 +594,7 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 50px 0;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -2366,13 +2368,13 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #D12A09;
   background-color: #D12A09;
-  border-color: #007bff;
+  border-color: #3d4044;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #0069d9;
-  border-color: #0062cc;
+  border-color: #3d4044;
 }
 
 .btn-primary:focus, .btn-primary.focus {

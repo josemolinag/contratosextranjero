@@ -20,20 +20,34 @@ body {
     min-height: 100%;
 }
 
-.subtitulos{
+.subtitulo{
 	font-size:25px;
+  	font-weight: bold;  	
 }
 
 p.parrafo{
   font-size:20px;
+}
+p.parrafo2{
+  font-size:30px;
 }
 
 .texto-sombra{
   text-shadow: 0 0 40px #000000;
 }
 
-.pdfobject-container { height: 500px;}
-.pdfobject { border: 1px solid #666; }
+.pdfobject-container {
+	width: 100%;
+	max-width: 600px;
+	height: 600px;
+	margin: 2em 0;
+}
+
+.pdfobject { border: solid 1px #666; }
+#results { padding: 1rem; }
+.hidden { display: none; }
+.success { color: #4F8A10; background-color: #DFF2BF; }
+.fail { color: #D8000C; background-color: #FFBABA; }
 
 table {
   table-layout:fixed;
