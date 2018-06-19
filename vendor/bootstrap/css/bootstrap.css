@@ -3958,6 +3958,7 @@ input[type="button"].btn-block {
   font-size: 1.1rem;
   line-height: inherit;
   white-space: nowrap;
+  font-size: 20px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
